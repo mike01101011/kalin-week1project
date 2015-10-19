@@ -1,0 +1,298 @@
+/*colours
+#08090A black
+#A7A2A9 light-grey
+#F4F7F5 white
+#575A5E dark-grey
+#222823 dark-green
+
+Andrea's Design Fishbowl suggestion
+#0047AB cobalt
+*/
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+*{
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+/*Set website width*/
+.wrapper{
+	max-width: 1280;
+}
+/*set the font to a workable size, generally 10*/
+html{
+	font-size: 62.5%;
+}
+/*set the font defaults, rem is about 10*/
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	line-height: 3.2rem;
+	font-weight: 400;
+	color: #08090A;
+}
+/*set heading font defaults*/
+h1{
+	font-family: 'Poiret One', cursive;
+	font-weight: 400;
+	letter-spacing: 5px;
+	color: #08090A;
+	font-size: 12.8rem;
+	text-shadow: 1px 1px 5px #F4F7F5;
+}
+h2, h3 {
+	font-family: 'Poiret One', cursive;
+	font-weight: 400;
+	letter-spacing: 5px;
+	border-bottom: 1px solid #08090A;
+}
+h2{
+	font-size: 4.8rem;
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
+h3{
+	font-size: 3.2rem;
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
+/*Setting vertical dadding for all div*/
+div.paragraph{
+	width: 66.66%;
+	margin: 0 auto;
+}
+div.socialButton{
+	width: 55.55%;
+	margin: 0 auto;
+}
+div.top, /*div.title,*/ div.blurb, div.gallery, div.social, div.bio, div.bottom{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 2.5% 0 0 0;
+}
+div.title{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	/*padding: 2.5% 0 0 0;*/
+}
+div.top, div.bottom{
+	padding: 5% 0 5% 0;
+}
+div.heading, div.paragraph{
+	padding: 2.5% 0 2.5% 0;
+}
+div.buttonBlurb{
+	padding: 2.5% 0;
+}
+/*set up the navigation links in the header*/
+nav ul{
+	padding: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	list-style: none;
+}
+nav li{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+/*set up link defaults*/
+a {
+	font-weight: 700;
+	color: #08090A;
+	text-decoration: none;
+}
+a:hover{
+	/*font-size: 2.8rem;*/
+	/*text-shadow: 1px 1px 10px #0047AB;*/
+}
+a:visited{
+	color: #08090A;
+}
+/*title background image*/
+/*.title{
+	height: 500px;
+	background-image: url(images/tumblr_ntgu6mNUHS1sfie3io1_1280.jpg);
+}*/
+/*The short of it section*/
+.buttonBlurb{
+	width: 33.33%;
+	margin: 0 auto;
+	border: 1px solid #08090A;
+	text-align: center;
+}
+.buttonBlurb a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 5px;
+	line-height: 4.8rem;
+	font-size: 2.4rem;
+}
+.buttonBlurb a:hover{
+/*	font-size: 3.2rem;
+	text-shadow: 1px 1px 10px #0047AB;*/
+}
+/*Gallery section*/
+.gallery{
+	text-align: center;
+}
+.frame img{
+	width: 33.33%;
+	height: auto;
+	padding: 1.11%;
+}
+.r1Gallery, .r2Gallery{
+	width: 90%;
+	margin: 0 auto;
+}
+.r1Gallery img, .r2Gallery img{
+	float: left;
+	display: block;
+}
+/*Social seciton*/
+.social{
+	text-align: center;
+	width: 66.66%;
+	margin: 0 auto;
+}
+div.socialButtons{
+	width: 66.66%;
+	margin: 0 auto;
+}
+div.r1Socialr1, div.r2Socialr2{
+	float: left;
+	margin: 20px;
+}
+.r1Socialr1, .r2Socialr2{
+	width: 44.44%;
+	border: 1px solid #08090A;
+	padding: 2.5%;
+}	
+.buttonSocial a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 5px;
+	line-height: 4.8rem;
+	font-size: 2.4rem;
+}
+.buttonSocial{
+	text-align: center;
+}
+.buttonSocial a:hover{
+	/*font-size: 3.2rem;
+	text-shadow: 1px 1px 10px #0047AB;*/
+}
+/*The long of it*/
+div.bio{
+	text-align: center;
+}
+div.moreLeft img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+div.moreLeft{
+	width: 40%;
+	float: left;
+	padding: 20px 0 50px 0;
+}
+div.moreRight{
+	width: 60%;
+	float: left;
+	padding: 60px 0 0 50px;
+}
+div.top, div.bottom{
+	border-top: 1px solid #08090A;
+	border-bottom: 1px solid #08090A;
+}
+div.top{
+	margin-top: 5%;
+}
+div.bottom{
+	margin-bottom: 5%;
+}
+div.title{
+	/*margin-top: 5%;*/
+}
+
+.heading img{
+	width: 90%;
+	margin: 0 auto;
+	/*padding-bottom: 5%;*/
+	/*height: auto;*/
+	display: block;
+}
+
+
+
+/*SEPIA FILTER*/
+img:hover
+{
+	filter: sepia(1);
+	-webkit-filter: sepia(1);
+	-moz-filter: sepia(1);
+	-o-filter: sepia(1);
+	-ms-filter: sepia(1);
+}
+
+img
+{
+	filter: sepia(0);
+	-webkit-filter: sepia(0);
+	-moz-filter: sepia(0);
+	-o-filter: sepia(0);
+	-ms-filter: sepia(0);
+	transition: all 1s;
+}
+
+
+/*INVERT FILTER*/
+/*img{
+	filter: invert(1);
+	-webkit-filter: invert(1);
+	-moz-filter: invert(1);
+	-o-filter: invert(1);
+	-ms-filter: invert(1);
+}
+
+img:hover{
+	filter: invert(0);
+	-webkit-filter: invert(0);
+	-moz-filter: invert(0);
+	-o-filter: invert(0);
+	-ms-filter: invert(0);
+}*/
+
+.moreRight {
+	text-align: left;
+}
+div.paragraph {
+	padding-bottom: 50px;
+}
+.name {
+	text-transform: uppercase;
+}
+/*div.paragraphL {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+div.paragraphR {
+	width: 50%;
+	margin: 0 auto;
+	float: right;
+}
+div.buttonBlurb {
+	clear: both;
+}*/
